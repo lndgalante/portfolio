@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "next",
-    "build": "node ./scripts/gen-rss.js && next build",
-    "start": "next start"
+    "start": "next start",
+    "build": "node ./scripts/gen-rss.js && next build"
   },
   "dependencies": {
     "gray-matter": "^4.0.2",

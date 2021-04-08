@@ -1,13 +1,13 @@
-const { promises: fs } = require('fs')
-const path = require('path')
 const RSS = require('rss')
+const path = require('path')
 const matter = require('gray-matter')
+const { promises: fs } = require('fs')
 
 async function generate() {
   const feed = new RSS({
-    title: 'Your Name',
-    site_url: 'https://yoursite.com',
-    feed_url: 'https://yoursite.com/feed.xml'
+    title: 'Leonardo Galante',
+    site_url: 'https://leonardogalante.com',
+    feed_url: 'https://leonardogalante.com/feed.xml'
   })
 
   const posts = await fs.readdir(path.join(__dirname, '..', 'pages', 'posts'))

@@ -40,6 +40,21 @@ h2 {
   font-variation-settings: 'wght' 750;
 }
 
+h1 {
+  height: 52px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+h1 img {
+  width: 34px !important;
+}
+
+h1 img {
+  margin: 0 !important;
+  margin-right: 0.4em !important;
+}
+
 @media screen and (min-device-pixel-ratio: 1.5),
   screen and (min-resolution: 1.5dppx) {
   body {

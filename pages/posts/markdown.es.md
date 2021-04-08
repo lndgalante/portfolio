@@ -1,18 +1,18 @@
 ---
 title: Simplicidad sobre Complejidad
 date: 2021/4/7
-description: Why we over-engineering things?
+description: Por qué hacemos sobre-ingeniería?
 tag: design, philosophy
 author: You
 ---
 
-# Simplicity over Complexity
+# Simplicidad sobre Complejidad
 
-I like to update my website every 1-2 years just to bring a new perspective and a new look to it.
-For the latest iteration I hired a designer to help me come with fresh ideas.
-The design was really cool but I've never could get my wrap around since I really like minimalism over any other aspect and the design feeled to me kinda convoluted.
-Minimalism brings me peace, armony and a sense of good organization and those are **values** that I want to _share_ to other people.
+Me gusta actualizar mi sitio web cada 1-2 años para traer una nueva perspectiva y un nuevo look.
+Para esta última iteración contrate una diseñadora para ayudarme a traer nuevas ideas.
+El diseño final es realmente genial pero nunca pude sentirme identificado ya que realmente me atrae el minimalismo por sobre cualquier otro aspecto del diseño.
+El minimalismo me trae paz, armonía, y un buen sentido de organización, y eso son valores que me gustaría compartir a otras personas.
 
-When [@leerob](https://twitter.com/leeerob) publish this starter made with Next.js and Nexta I fall in love immediately since not only was made with great technologies but also with a simple approach in design terms. So that's it even that I knew that could be widely used I'll probably end up with a similar design to this one.
+Cuando [@leerob](https://twitter.com/leeerob) publico este [starter kit](https://github.com/vercel-solutions/nextjs-portfolio-starter) hecho con Next.js y Nextra inmediatamente me enamoré no solo porque estaba hecha con grandes tecnologías como SSG y MDX, pero también por el acercamiento sencillo al diseño. Así que aunque puede llegar a usarse masivamente probablemente termine con un diseño similar a este.
 
-Thanks Vercel 🖤
+Gracias Vercel 🖤

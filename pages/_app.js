@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import { Fragment } from 'react'
+import PlausibleProvider from 'next-plausible'
 
 // lib
 import 'nextra-theme-blog/style.css'
@@ -8,7 +10,7 @@ import '../styles/main.css'
 
 export default function Nextra({ Component, pageProps }) {
   return (
-    <>
+    <Fragment>
       <Head>
         <link
           rel="alternate"
@@ -24,7 +26,9 @@ export default function Nextra({ Component, pageProps }) {
           crossOrigin="anonymous"
         />
       </Head>
-      <Component {...pageProps} />
-    </>
+      <PlausibleProvider domain="leonardogalante.com">
+        <Component {...pageProps} />
+      </PlausibleProvider>
+    </Fragment>
   )
 }

@@ -1,5 +1,13 @@
 const withNextra = require('nextra')('nextra-theme-blog', './theme.config.js')
 
+module.exports = withNextra({
+  future: { webpack5: true },
+  i18n: { defaultLocale: 'en', locales: ['en', 'es'] },
+  async headers() {
+    return [{ source: '/(.*)', headers: securityHeaders }]
+  }
+})
+
 const ContentSecurityPolicy = `
   default-src 'self';
   script-src 'self' 'unsafe-eval' 'unsafe-inline' *.youtube.com *.twitter.com *plausible.io;
@@ -41,19 +49,3 @@ const securityHeaders = [
     value: 'camera=(), microphone=(), geolocation=()'
   }
 ]
-
-module.exports = withNextra({
-  future: {
-    webpack5: true
-  },
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'es']
-  },
-  async headers() {
-    return [
-      { source: '/', headers: securityHeaders },
-      { source: '/:path*', headers: securityHeaders }
-    ]
-  }
-})

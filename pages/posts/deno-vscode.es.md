@@ -18,8 +18,10 @@ Para soportar Deno vamos a configurar nuestro Visual Studio Code, siguiendo esto
 
 2. Instalemos la extensión [Deno](https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno) para Visual Studio Code
 
-3. Asignemos el `path` de Deno en la configuración de VSCode `"deno.path": "/opt/homebrew/Cellar/deno"`
+3. Averiguemos donde esta instalado Deno usando `brew info deno` y copiemos el path
 
-4. Habilitar la extensión de Deno con `"deno.enable": true`, pero tene cuidad porque la extensión va a deshabilitar los servicios nativos de VSCode para JavaScript y TypeScript, y en cambio va a a usar el servidor de lenguaje de Deno (deno lsp).
+4. Asignemos el `path` de Deno en la configuración de VSCode `"deno.path": "/opt/homebrew/Cellar/deno/1.9.2"`
+
+5. Habilitar la extensión de Deno con `"deno.enable": true`, pero tene cuidad porque la extensión va a deshabilitar los servicios nativos de VSCode para JavaScript y TypeScript, y en cambio va a a usar el servidor de lenguaje de Deno (deno lsp).
 
 Eso es todo, disfruta codeando en este runtime increíble!

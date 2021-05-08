@@ -20,7 +20,7 @@ Let's setup our Visual Studio Code to support Deno follow the next steps:
 
 3. Let's find out where our Deno bin path is located running `brew info deno`
 
-4. Set Deno path on our VSCode settings: `"deno.path": "/opt/homebrew/Cellar/deno/1.9.2"`
+4. Set Deno path on our VSCode settings: `"deno.path": "/opt/homebrew/Cellar/deno/1.9.2/bin/deno"`
 
 5. Enable Deno extension with `"deno.enable": true`, but be careful the extension will disable the built-in VSCode JavaScript and TypeScript language services, and will use the Deno Language Server (deno lsp) instead.
 

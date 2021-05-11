@@ -72,6 +72,10 @@ img.next-image {
   margin: 0;
 }
 
+img.cover {
+  border-radius: 4px;
+}
+
 .prose a {
   color: #0074de;
 }

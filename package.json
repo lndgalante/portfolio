@@ -9,7 +9,7 @@
     "build": "node ./scripts/gen-rss.js && next build"
   },
   "dependencies": {
-    "gray-matter": "^4.0.2",
+    "gray-matter": "^4.0.3",
     "next": "latest",
     "next-plausible": "^1.6.1",
     "nextra": "^0.4.4",

@@ -93,10 +93,12 @@ img.cover {
   color: #69778c;
 }
 
-article > div:nth-child(9) {
+article > div:nth-child(9),
+article > div:nth-child(10) {
   display: flex;
 }
 
-article > div:nth-child(9) > p {
+article > div:nth-child(9) > p,
+article > div:nth-child(10) > p {
   margin-right: 6px;
 }

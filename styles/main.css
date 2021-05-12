@@ -5,6 +5,7 @@
   font-display: block;
   src: url(/fonts/Inter-roman.latin.var.woff2) format('woff2');
 }
+
 @font-face {
   font-family: 'Inter var';
   font-style: italic;
@@ -84,6 +85,18 @@ img.cover {
   color: #0074de;
 }
 
+.prose ul {
+  display: none;
+}
+
 .nav-line .nav-link {
   color: #69778c;
+}
+
+article > div:nth-child(10) {
+  display: flex;
+}
+
+article > div:nth-child(10) > p {
+  margin-right: 6px;
 }

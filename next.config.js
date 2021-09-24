@@ -1,7 +1,7 @@
 const withNextra = require('nextra')('nextra-theme-blog', './theme.config.js')
 
 module.exports = withNextra({
-  future: { webpack5: true },
+  webpack5: true,
   i18n: { defaultLocale: 'en', locales: ['en', 'es'] },
   async headers() {
     return [{ source: '/(.*)', headers: securityHeaders }]

@@ -90,11 +90,17 @@ img.cover {
 }
 
 article > div:nth-child(9),
-article > div:nth-child(10) {
+article > div:nth-child(10),
+article > div:nth-child(15),
+article > div:nth-child(19),
+article > div:nth-child(22),
+article > div:nth-child(25) {
+  gap: 6px;
   display: flex;
+  flex-direction: row;
 }
 
 article > div:nth-child(9) > p,
 article > div:nth-child(10) > p {
-  margin-right: 6px;
+  margin: 0;
 }
